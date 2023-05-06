@@ -2,7 +2,7 @@
 
 ##### Overview
 
-- `train.ipynb` is mainly used to train the models, including the baseline model and our score-based SDE model.
+- `train.ipynb` is mainly used to train the models, including loading the dataset and training the baseline model and our score-based SDE model.
 - `evaluate.ipynb` is used to sample from the trained models and evaluate the sampling results using the FID metric.
 - `model.py` contains the UNet neural network.
 - `sde.py` contains the functions and utilities needed for SDE.
